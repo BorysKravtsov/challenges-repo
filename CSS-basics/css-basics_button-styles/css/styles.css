@@ -30,19 +30,35 @@ button {
 /* Add your CSS styles below this line. Feel free to replace the comments with your code. Make sure not to put your code into the comments, because then nothing will happen. */
 
 .button1 {
-  /*Style me! Change my border, set a border radius or what you want to try out. :) */
+  border: dotted 3px blueviolet;
+
+  border-radius: 10px; /*Style me! Change my border, set a border radius or what you want to try out. :) */
 }
 
 .button2 {
+  color: bisque;
+  background-color: brown;
+
   /*Style me! Change my color, or my background-color. Or both! You can test out different color modes here - like HEX, RGB, ... */
 }
 
 .button3 {
+  font-family: monospace;
+  font-style: italic;
   /*Style me! You can test out changing the font, or font size, ...*/
 }
 
 .button4 {
+  box-shadow: 3px 3px 10px blueviolet;
   /*Style me! Can you add a shadow to this button? Maybe play around with the shadow properties, as well? You can even color the shadow, make it bigger or smaller, ... */
+}
+
+button {
+  transition: 1s;
+}
+
+button:hover {
+  padding: 16px 50px;
 }
 
 /* Feel free to play around with other properties, as well. */
