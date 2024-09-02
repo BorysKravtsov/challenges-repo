@@ -30,7 +30,7 @@ body {
   color: var(--white);
 }
 
-h2 {
+.profile h2 {
   text-align: left;
   width: 100%;
 }
@@ -53,6 +53,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: min(10px);
 }
 
 .tech-stack__list-item {
