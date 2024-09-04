@@ -25,7 +25,6 @@ Hint: you need only two lines of code in your grid container
   --grey-light: #f5f6f6;
 }
 
-
 *,
 *::before,
 *::after {
@@ -56,15 +55,15 @@ body {
 
 .teaser-grid__teaser--spring {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("https://source.unsplash.com/random/600x300?spring");
+    url("https://cdn.britannica.com/05/155405-050-F8969EE6/Spring-flowers-fruit-trees-bloom.jpg");
 }
 .teaser-grid__teaser--summer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("https://source.unsplash.com/random/600x300?summer");
+    url("https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F210316134738-02-wisdom-project-summer.jpg");
 }
 .teaser-grid__teaser--autumn {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("https://source.unsplash.com/random/600x300?autumn");
+    url("https://static1.squarespace.com/static/61c4da8eb1b30a201b9669f2/t/651830f64f09ae15ca838107/1696084214564/autumn-leaves.jpg?format=1500w");
 }
 .teaser-grid__teaser--winter {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
