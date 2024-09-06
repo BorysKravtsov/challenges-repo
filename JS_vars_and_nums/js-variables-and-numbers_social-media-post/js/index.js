@@ -8,6 +8,11 @@ console.clear();
 	- the user who created the post
 	- a boolean called isReported
 */
+const title = "Programming";
+const text = "JavaScript";
+let numLikes = 14;
+const user = "John Mee";
+let isReported = "true";
 
 // --v-- write your code here --v--
 
@@ -16,6 +21,10 @@ console.clear();
 /*
 2. Log all variables to the console. Increase the likes by one and log the amount of likes again. Adapt your code from 1.1 if necessary.
 */
+
+console.log(title, text, numLikes, user, isReported);
+numLikes++;
+console.log(numLikes);
 
 // --v-- write your code here --v--
 
