@@ -39,7 +39,7 @@ exponentButton.addEventListener("click", () => {
 });
 
 moduloButton.addEventListener("click", () => {
-  let mod = operand1 % operand2;
+  const mod = operand1 % operand2;
   console.log(mod);
   // 6. Calculate the remainder when dividing "operand1" by "operand2" and store the result in a variable. Log the variable's value to the console.
 });
