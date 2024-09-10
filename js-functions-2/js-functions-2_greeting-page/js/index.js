@@ -24,10 +24,20 @@ const display = document.querySelector('[data-js="display"]');
 
 function getGreeting() {
   // Code here
+  const timeDay = new Date().getHours();
+  if (timeDay >= 5 && timeDay <= 11) return "Good Morning";
+  else if (timeDay > 11 && timeDay <= 18) return "Good Afternoon";
+  else if (timeDay > 18 && timeDay <= 22) return "Good Evening";
+  return "Good Night";
 }
 
 function getDayColor() {
   // Code here
+
+  const dayWeek = new Date().getDay();
+  if (dayWeek < 5 && dayWeek > 0) return "lightblue";
+  else if (dayWeek === 0) return "darkgray";
+  return "hotpink";
 }
 
 display.textContent = getGreeting();
