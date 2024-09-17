@@ -21,6 +21,11 @@ body {
   border: none;
   font-size: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: 0.6s ease-in-out;
+}
+
+.bgColor {
+  background-color: black;
 }
 
 .start-button:hover {
@@ -49,12 +54,25 @@ body {
   background: rgb(71, 212, 94);
   border-radius: 7px;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-
-  transition: transform 0.5s;
 }
 
 .toast--hidden {
-  transform: translate3d(-150%, 0, 0);
+  animation: toastAnimation 5s ease;
+}
+
+@keyframes toastAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(100%);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* Countdown */
@@ -65,7 +83,6 @@ body {
   left: 0;
   height: 5px;
   background-color: black;
-
   opacity: 0;
   width: 100%;
   transition: opacity 0.25s;
@@ -74,5 +91,5 @@ body {
 .countdown--visible {
   opacity: 0.8;
   width: 0%;
-  transition: width linear 2000ms;
+  transition: width linear 2s;
 }
