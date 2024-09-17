@@ -17,6 +17,12 @@ const programmingLanguages = [
   "Ruby",
 ];
 
+for (const lang of programmingLanguages) {
+  const liItem = document.createElement("li");
+  liItem.textContent = lang;
+  ol.append(liItem);
+}
+
 // --v-- write/change code here --v--
 
 // --^-- write/change code here --^--
