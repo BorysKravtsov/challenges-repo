@@ -6,7 +6,7 @@ const root = document.getElementById("root");
 const circle = document.createElement("div");
 circle.classList.add("circle");
 circle.addEventListener("click", () => {
-  circle.style.backgroundColor = getRandomColor();
+  circle.style.backgroundColor = getRandomColor();i
 });
 
 const square = document.createElement("div");
