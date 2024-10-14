@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 16px;
+  min-height: 388px;
+  margin: 32px 0 80px;
+}
+.form__title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: var(--color-granite);
+  text-align: center;
+  font-weight: 700;
+}
